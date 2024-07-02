@@ -150,7 +150,7 @@ NvAPI_Status ApplyCustomDisplay() {
 		return NVAPI_OUT_OF_MEMORY;
 	}
 
-	float rr = 60;
+	float rr = 59.94;
 	NV_TIMING_FLAG flag = { 0 };
 	NV_TIMING_INPUT timing = { 0 };
 
@@ -189,7 +189,7 @@ NvAPI_Status ApplyCustomDisplay() {
 			printf("NvAPI_DISP_SAveCustomDisplay() failed for display %d = %d\n", count, ret);
 		}
 		else {
-			printf("Custom display saved for disoay %d\n", count);
+			printf("Custom display saved for display %d\n", count);
 		}
 
 	}
