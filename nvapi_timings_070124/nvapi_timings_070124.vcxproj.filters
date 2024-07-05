@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="nvapi_timings_070124.cpp">
+    <ClCompile Include="src\nvapi_timings_070124.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
